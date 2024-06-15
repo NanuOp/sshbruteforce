@@ -9,7 +9,7 @@ host = input("Enter your Ip: ")
 username = input("Enter your username: ")
 attempts = 0
 
-with open (input("Enter the wordlist"), "r") as password_list:
+with open (input("Enter the wordlist: "), "r") as password_list:
     for password in password_list:
         password = password.strip("\n")
         try:
